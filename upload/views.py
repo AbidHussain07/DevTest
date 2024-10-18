@@ -61,7 +61,7 @@ def upload_file(request):
                     subject='Python Assignment - AbidHussain',
                     body=f'Please find the summary report attached.\n\nSummary:\n{summary}',
                     from_email=settings.DEFAULT_FROM_EMAIL,
-                    to=['falconenemy50@gmail.com'],
+                    to=['tech@themedius.ai'],
                 )
 
                 email.attach_file(image_path)
